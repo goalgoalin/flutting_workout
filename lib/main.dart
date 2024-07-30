@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 //import 'package:provider/provider.dart';
 import 'package:flutting_workout/screens/login.dart';
@@ -7,11 +6,10 @@ import 'package:flutting_workout/screens/login.dart';
 
 void main() {
   runApp(const MaterialApp(
-    title: 'Navigation Basics',
+    title: 'Flutting',
     home: MyApp(),
   ));
 }
-
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -27,7 +25,7 @@ class MyApp extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const LoginP()),
+              MaterialPageRoute(builder: (context) => LoginP()),
             );
           },
         ),
